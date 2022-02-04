@@ -39,7 +39,7 @@ async def run(event):
             f.write(final)
         await System.send_file(event.chat_id, "exec.txt")
         return
-    await event.reply(final + "`")
+    await event.reply(f'{final}`')
 
 
 @System.on(system_cmd(pattern=r"sibyl (ev|eva|eval|py)"))
@@ -57,9 +57,12 @@ async def run_eval(event):
 
 async def async_exec(code, event):
     exec(
-        f"async def __async_exec(event): "
-        + "".join(f"\n {l}" for l in code.split("\n"))
+        (
+            'async def __async_exec(event): '
+            + "".join(f"\n {l}" for l in code.split("\n"))
+        )
     )
+
     return await locals()["__async_exec"](event)
 
 
