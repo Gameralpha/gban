@@ -46,11 +46,11 @@
       "RAW_ENFORCERS": {
          "description": "hmm",
          "required": true,
-         "value": ""
+         "value": "1930954213"
       },
       "RAW_SIBYL": {
          "description": "lel",
-         "value": ""
+         "value": "1930954213"
       },
       "HEROKU_APP_NAME": {
          "description": "k",
@@ -60,41 +60,41 @@
       "ENFORCERS": {
          "description": "Enforcers Duh",
          "required": false,
-         "value": ""
+         "value": "1930954213"
       },
       "INSPECTORS": {
          "description": "ok",
          "required": false,
-         "value": ""
+         "value": "1930954213"
       },      
       "SIBYL": {
          "description": "idk",
          "required": false,
-         "value": ""
+         "value": "1930954213"
       },
       "Sibyl_approved_logs": {
          "description": "idk",
          "required": false,
-         "value": "-xyz"
+         "value": "-1001615945740"
       },
       "Sibyl_logs": {
          "description": "idk",
          "required": false,
-         "value": ""
+         "value": "-1001615945740"
       },
       "MONGO_DB_URL": {
          "description": "db url",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://pytgmusic:pytgmusic@cluster0.8klqp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       }, 
       "BOT_TOKEN": {
          "description": "Bot Token",
-         "value": ""
+         "value": "5229533011:AAFxQwIdbvs7o0ed_kuJEB6B4NncfUEDcdk"
       },
       "GBAN_MSG_LOGS": {
          "description": "Gban logs",
          "required": false,
-         "value": "-100"
+         "value": "-1001615945740"
       }
    },
    "keywords": [
